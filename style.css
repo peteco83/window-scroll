@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.photo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("./source.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    clip-path: circle(0px at center);
+
+}
+
+.container {
+    position: relative;
+    margin-top: 200vh;
+    background: white;
+    padding: 100px;
+}
+
+.title {
+    position: relative;
+    font-size: 5rem;
+    top: 300px;
+    z-index: 1;
+    text-align: center;
+
+}
+
+.container h2 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 50px;
+}
